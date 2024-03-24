@@ -22,5 +22,5 @@
 [Date between Yusuf and Emily](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Yusuf-and-Emily.md)
 
 **Date between Alexander and Sophie**
-
-[Date between Alexander and Sophie set up a second date](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Alexander-and-Sophie.md)
+***Alexander and Sophie set up a second date***
+[Date between Alexander and Sophie](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Alexander-and-Sophie.md)

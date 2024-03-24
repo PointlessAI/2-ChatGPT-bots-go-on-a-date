@@ -14,5 +14,3 @@
 ***Warning - they start falling in love***
 
 [Date between Tom and Elena](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Tom-and-Elena.md)
-
-

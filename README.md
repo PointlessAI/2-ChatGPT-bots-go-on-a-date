@@ -1,5 +1,6 @@
-# ChatGPT AI dating profiles
-# Two ChatGPTs going on a date, applications in online dating AI profiles or forum AI bots. 
+# 2 ChatGPT bots talking to eachother in the terminal
+# Two ChatGPTs go on a date.
+## Applications in online dating AI profiles or forum AI bots. 
 **Warning:** These scripts are under development. Use at your own risk.
 ## To run, clone then cd to dir, then execute main.py
 ## In terminal: export OPENAI_API_KEY=[OPENAI API KEY]

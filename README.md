@@ -59,9 +59,7 @@ Generating personalities...
   }
 }
 
-Date between Aleksandr and Sofia
-
-Date between Aleksandr and Sofia:
+**Date between Aleksandr and Sofia:**
 
 Aleksandr says: I find that spending a quiet evening with a good book is far more enriching than going out to loud social gatherings. 
 

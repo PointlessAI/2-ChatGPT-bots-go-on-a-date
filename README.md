@@ -19,4 +19,4 @@
 **Date between Yusuf and Emily**
 ***Warning - the stop has been changed from a full stop to a new line. These guys really get sickeningly romantic.***
 
-[Date between Tom and Elena](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Yusuf-and-Emily.md)
+[Date between Yusuf and Emily](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Yusuf-and-Emily.md)

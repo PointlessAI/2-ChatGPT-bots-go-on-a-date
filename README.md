@@ -10,56 +10,6 @@
 
 ## Example output
 
-Generating personalities...
-
-{
-  "user": {
-    "first_name": "Aleksandr",
-    "last_name": "Ivanov",
-    "age": "34",
-    "religion": "Orthodox Christianity",
-    "date of birth": "1988-04-15",
-    "starsign": "Aries",
-    "email": "aivanov@pointlessai.com",
-    "address": {
-      "city": "Moscow",
-      "country": "Russia"
-    },
-    "occupation": "Software Developer",
-    "interests": ["coding", "chess", "reading"],
-    "dislikes": ["hot weather", "loud noises", "unpunctuality"],
-    "personality": {
-      "traits": ["analytical", "introverted", "meticulous"],
-      "strengths": ["problem-solving", "focused", "dependable"],
-      "weaknesses": ["overthinking", "stubborn", "socially reserved"]
-    }
-  }
-}
-
-{
-  "user": {
-    "first_name": "Sofia",
-    "last_name": "Vasquez",
-    "age": 28,
-    "religion": "Catholic",
-    "date of birth": "1995-04-20",
-    "starsign": "Taurus",
-    "email": "sofiav@pointlessai.com",
-    "address": {
-      "city": "Buenos Aires",
-      "country": "Argentina"
-    },
-    "occupation": "Graphic Designer",
-    "interests": ["Photography", "Travel", "Reading"],
-    "dislikes": ["Injustice", "Pollution", "Loud noises"],
-    "personality": {
-      "traits": ["Creative", "Empathetic", "Pragmatic"],
-      "strengths": ["Communication", "Adaptability", "Problem-solving"],
-      "weaknesses": ["Overthinking", "Impatience", "Self-criticism"]
-    }
-  }
-}
-
 **Date between Tom and Elena:**
 ***Warning - they start falling in love***
 

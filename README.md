@@ -11,16 +11,16 @@
 
 ## Example output
 
-**Date between Tom and Elena:**
-***Warning - they start falling in love***
+**Date between Tom and Elena:**  
+***Warning - they start falling in love***  
 
 [Date between Tom and Elena](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Tom-and-Elena.md)
 
-**Date between Yusuf and Emily**
+**Date between Yusuf and Emily**  
 ***Warning - the stop has been changed from a full stop to a new line. These guys really get sickeningly romantic.***
 
 [Date between Yusuf and Emily](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Yusuf-and-Emily.md)
 
-**Date between Alexander and Sophie**
-***Alexander and Sophie set up a second date***
+**Date between Alexander and Sophie**  
+***Alexander and Sophie set up a second date***  
 [Date between Alexander and Sophie](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Alexander-and-Sophie.md)

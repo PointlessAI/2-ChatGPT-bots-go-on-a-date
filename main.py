@@ -12,7 +12,7 @@ class DateNight:
             {
                 "role": "system", "content": 'You will be populating a json object: \
                 Read all instructions before generating any values. \
-                {"user":{"first_name":"","last_name":"","age":"", "religion":"", "date of birth":"", "starsign":"", "email":"@pointlessai.com","address":{"city":"","country":""},"occupation":"","interests":[""],"dislikes":[""], "personality":{"traits":[""],"strengths":[""],"weaknesses":[""]}}} \
+                {"user":{"first_name":"","last_name":"","age":"", "religion":"", "starsign":"", "email":"@pointlessai.com","address":{"city":"","country":""},"occupation":"","interests":[""],"dislikes":[""], "personality":{"traits":[""],"strengths":[""],"weaknesses":[""]}}} \
                 First generate a list of 14 random cities, 4 from eastern countries and 4 from western countries and 4 from England, then choose 1 random city from this list and its country as the persons location. \
                 Sex is' + sex + ' \
                 Generate a random age. Match date of birth to starsign \
@@ -25,7 +25,7 @@ class DateNight:
             }
         ]
         response = self.client.chat.completions.create(
-            model="gpt-4-0125-preview",
+            model="gpt-3.5-turbo-0613",
             messages=personality_prompt,
             max_tokens=850,
             n=1,
@@ -49,7 +49,7 @@ class DateNight:
             }
         ]
         response = self.client.chat.completions.create(
-            model="gpt-4-0125-preview",
+            model="gpt-3.5-turbo-0613",
             messages=messages,
             max_tokens=120,
             n=1,
@@ -65,7 +65,7 @@ class DateNight:
         chat_history.append({"role": "user", "content": topic})
 
         response = self.client.chat.completions.create(
-            model="gpt-4-0125-preview",
+            model="gpt-3.5-turbo-0613",
             messages=chat_history,
             max_tokens=120,
             n=1,

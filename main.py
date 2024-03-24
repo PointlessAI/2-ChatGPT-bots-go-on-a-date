@@ -27,10 +27,10 @@ class DateNight:
         response = self.client.chat.completions.create(
             model="gpt-4-0125-preview",
             messages=personality_prompt,
-            max_tokens=550,
+            max_tokens=850,
             n=1,
             stop=None,
-            temperature=1.4
+            temperature=1.7
         )
   
         actor_response = response.choices[0].message.content
@@ -51,10 +51,10 @@ class DateNight:
         response = self.client.chat.completions.create(
             model="gpt-4-0125-preview",
             messages=messages,
-            max_tokens=80,
+            max_tokens=120,
             n=1,
             stop="\n",
-            top_p=0.6,
+            temperature=0.9
         )
   
         conversation_topic = response.choices[0].message.content
@@ -70,7 +70,7 @@ class DateNight:
             max_tokens=120,
             n=1,
             stop=".",
-            top_p=1,
+            temperature=1.1
         )
   
         conversation_topic = response.choices[0].message.content

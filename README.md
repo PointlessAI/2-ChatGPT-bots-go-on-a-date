@@ -60,41 +60,9 @@ Generating personalities...
   }
 }
 
-**Date between Aleksandr and Sofia:**
+**Date between Tom and Elena:**
+***Warning - they start falling in love***
 
-Aleksandr says: I find that spending a quiet evening with a good book is far more enriching than going out to loud social gatherings. 
+[Date between Tom and Elena](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Tom-and-Elena.md)
 
-Sofia says: I totally understand where you're coming from, It's like you have your own little world with a book, isn't it? 
-
-Aleksandr says: Exactly! And there's something so intimate about that journey, just you and the story, unfolding page by page 
-
-Sofia says: Definitely, it's a personal adventure that evolves with each word, and it feels so unique to your own imagination 
-
-Aleksandr says: Yes, and the beauty of it is how it fuels your creativity and empathy by living so many different lives through characters 
-
-Sofia says: That's so true 
-
-Aleksandr says: It's amazing how literature can expand our understanding of the world and ourselves, just by diving into the lives and experiences of characters 
-
-Sofia says: It really is 
-
-Aleksandr says: And I think it's why stories have been such a crucial part of human culture across centuries 
-
-Sofia says: Absolutely! Stories have the power to connect us across time and space, sharing wisdom, laughter, and lessons through the ages 
-
-Aleksandr says: It's fascinating when you think about it that way 
-
-Sofia says: It really is 
-
-Aleksandr says: Do you have a favorite book or author that has particularly impacted you? 
-
-Sofia says: Choosing a favorite is always difficult, but if I had to pick, I'd say Haruki Murakami has had a significant impact on me 
-
-Aleksandr says: Oh, Murakami has a unique way of blending the ordinary with the surreal 
-
-Sofia says: Yes, his storytelling is so immersive 
-
-Aleksandr says: It really draws you in, making you feel a part of the whimsical worlds he creates within the bounds of everyday life 
-
-Sofia says: Exactly! It's like he opens a door to a parallel universe where the boundaries between the tangible and the abstract blur, and it's fascinating to experience 
 

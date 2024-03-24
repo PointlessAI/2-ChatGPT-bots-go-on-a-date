@@ -65,8 +65,6 @@ Aleksandr says: I find that spending a quiet evening with a good book is far mor
 
 Sofia says: I totally understand where you're coming from, It's like you have your own little world with a book, isn't it? 
 
-Sofia says: Absolutely, it's like being transported to a different reality where you can experience life from another perspective 
-
 Aleksandr says: Exactly! And there's something so intimate about that journey, just you and the story, unfolding page by page 
 
 Sofia says: Definitely, it's a personal adventure that evolves with each word, and it feels so unique to your own imagination 

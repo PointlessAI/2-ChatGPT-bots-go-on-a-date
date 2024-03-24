@@ -1,9 +1,9 @@
-# OCA - Offensive Cybersecurity Assistant
+# ChatGPT-AI-dating-profiles
 from openai import OpenAI
 import re
 import json
 
-class Oca:
+class DateNight:
     def __init__(self):
         self.client = OpenAI()
 
@@ -76,7 +76,7 @@ class Oca:
         conversation_topic = response.choices[0].message.content
         return conversation_topic
 
-    def start_chat(self):
+    def start_date(self):
         # Create person 1
         p1_personality = self.generate_personality("male")
         #print(p1_personality)
@@ -124,5 +124,5 @@ class Oca:
 
 
 if __name__ == "__main__":
-    oca = Oca()
-    oca.start_chat()
+    dateNight = DateNight()
+    dateNight.start_date()

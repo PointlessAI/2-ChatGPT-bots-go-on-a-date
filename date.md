@@ -41,5 +41,3 @@ Sofia says: It really is powerful how a simple act of reading can lead to such p
 Aleksandr says: Exactly, it's like each book is a stepping stone on the path to a more enlightened and empathetic self
 Sofia says: It's wonderful to think of our personal libraries as gardens, where each book planted adds to the beauty and diversity of our inner landscape
 Aleksandr says: What a beautiful analogy! Just like a garden, our inner landscapes thrive with care, diversity, and the nourishing experiences that books provide
-Sofia says: Yes, and it's through cultivating this garden that we can see the world from various perspectives, enriching our understanding and compassion
-Aleksandr says: That's the truly remarkable thing about reading – it's an endless journey of discovery, both of the world around us and the vast landscapes within ourselves

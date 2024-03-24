@@ -1,4 +1,3 @@
-# OCA - Offensive Cybersecurity Assistant
 from openai import OpenAI
 import os
 import subprocess
@@ -18,8 +17,7 @@ class Oca:
                 Generate a random demographic, male or female, age 18 - 80. Match date of birth to starsign \
                 Assign an occupation in the context of the actors location, sex and age \
                 Assign a religion based on the previous information \
-                Generate a personality based on all of this information. \
-                Please return raw json object without using code block formatting or markdown syntax." '
+                Generate a personality based on all of this information.'
             }
         ]
         response = self.client.chat.completions.create(
@@ -32,13 +30,7 @@ class Oca:
         )
   
         actor_response = response.choices[0].message.content
-        cleaned_response = re.sub(r'^```json\s*', '', actor_response, flags=re.MULTILINE)
-        cleaned_response = cleaned_response.replace('```', '')
-
-        # Write cleaned response to a file
-        with open("cleaned_response.json", "w") as file:
-            file.write(cleaned_response)
-        return cleaned_response
+        return actor_response
 
     def start_chat(self):
         personality = self.generate_personality()

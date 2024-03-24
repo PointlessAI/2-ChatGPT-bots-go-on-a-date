@@ -3,6 +3,7 @@
 **Warning:** These scripts are under development. Use at your own risk.
 ## To run, clone then cd to dir, then execute main.py
 ## In terminal: export OPENAI_API_KEY=[OPENAI API KEY]
+## Dates are outputted to dates/name-and-name.md
 * Requires Python + Openai + ChatGPT API key
 
 **Warning:** These scripts are under development and may contain bugs or security issues. Please use responsibly.
@@ -96,34 +97,4 @@ Sofia says: Yes, his storytelling is so immersive
 Aleksandr says: It really draws you in, making you feel a part of the whimsical worlds he creates within the bounds of everyday life 
 
 Sofia says: Exactly! It's like he opens a door to a parallel universe where the boundaries between the tangible and the abstract blur, and it's fascinating to experience 
-
-Aleksandr says: It's like he's inviting you on a journey where the destination isn't always clear, but the journey itself is incredibly enriching 
-
-Sofia says: Definitely, and there's something beautiful about that uncertainty, isn't there? It teaches you to appreciate the journey, not just the destination 
-
-Aleksandr says: Yes, exactly 
-
-Sofia says: It's a philosophy that applies to life as well, don't you think? Learning to appreciate each moment, even without knowing where we're ultimately headed 
-
-Aleksandr says: Absolutely, embracing the unknown and finding joy in the journey itself is a beautiful way to live 
-
-Sofia says: Couldn't agree more 
-
-Aleksandr says: It's conversations like this that remind me how much depth and understanding books add to our lives 
-
-Sofia says: For sure, it’s like they give us a language to articulate thoughts and feelings we didn’t even realize we had 
-
-Aleksandr says: Exactly, it's as though they unlock parts of our mind and soul, providing clarity and insight into our own experiences and emotions 
-
-Sofia says: And that's the magic of reading, isn't it? It's not just about the stories themselves, but how they awaken parts of us that we might not have known existed 
-
-Aleksandr says: Absolutely, it's that profound impact, how books can change us, shape us, and make us more aware of who we are and who we can be 
-
-Sofia says: It really is powerful how a simple act of reading can lead to such profound personal growth and understanding 
-
-Aleksandr says: Exactly, it's like each book is a stepping stone on the path to a more enlightened and empathetic self 
-
-Sofia says: It's wonderful to think of our personal libraries as gardens, where each book planted adds to the beauty and diversity of our inner landscape 
-
-Aleksandr says: What a beautiful analogy! Just like a garden, our inner landscapes thrive with care, diversity, and the nourishing experiences that books provide
 

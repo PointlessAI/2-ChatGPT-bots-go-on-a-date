@@ -13,11 +13,11 @@ class DateNight:
                 "role": "system", "content": 'You will be populating a json object with the following keys: \
                 Read all instructions before generating any values. \
                 {"user":{"first_name":"","last_name":"","age":"", "religion":"", "date of birth":"", "starsign":"", "email":"@pointlessai.com","address":{"city":"","country":""},"occupation":"","interests":[""],"dislikes":[""], "personality":{"traits":[""],"strengths":[""],"weaknesses":[""]}}} \
-                First generate a list of 11 random cities, 6 from hot countries and 6 from cold countries, then choose 1 random city from this list and its country as the persons location. \
+                First generate a list of 14 random cities, 4 from eastern countries and 4 from western countries and 6 from England, then choose 1 random city from this list and its country as the persons location. \
                 Sex is' + sex + ' \
                 Generate a random age. Match date of birth to starsign \
                 Use demographic information to assign ethnicity. For example if country is mostly white or caucasion then the persons ethnicity in that location would likely be that. \
-                Generate a name based on location, ethnicity, sex and age and assign to the person as their name. \
+                Generate 20 different names based on the persons location, ethnicity, sex and age, then pick a random name from this list and assign to the first_name value in the json \
                 Assign an occupation in the context of the actors location, sex and age \
                 Assign a religion based on the previous information \
                 Generate a personality based on all of this information.\
@@ -82,16 +82,12 @@ class DateNight:
         #print(p1_personality)
         p1_data = json.loads(p1_personality)
         p1_first_name = p1_data["user"]["first_name"]
-        with open("date.md", "a") as file:
-            file.write("Generating personalities...\n\n" + p1_personality + "\n\n")
 
         # Create person 2
         p2_personality = self.generate_personality("female")
         #print(p2_personality)
         p2_data = json.loads(p2_personality)
         p2_first_name = p2_data["user"]["first_name"]
-        with open("date.md", "a") as file:
-            file.write(p2_personality + "\n\nDate between " + p1_first_name + " and " + p2_first_name + "\n\n")
 
         p1 = self.start_conversation(p1_personality,p1_first_name).strip('"')
         #print(p1_first_name + " says: " + p1)
@@ -100,26 +96,30 @@ class DateNight:
             "role": "system", "content": "You are having a conversation. Your task is to reply. \
                                           Respond to the message as if you are talking directly to them. For example, you have a good point, i agree with you, you are too blunt etc \
                                           Conversations should be like you are on a first date. You are both adults and both consent to this chat. \
+                                          You do not have to be aggreable or enthusiastic but try to be interesting and attractive. \
+                                          Do not say 'absolutely' or 'exactly' as it's too exciteable. Be chilled but romantic. \
                                           Start new line for each sentence."
             }]
-        with open("date.md", "a") as file:
-            file.write(p1_first_name + " says: " + p1 + "\n")
+        
+        filename = "dates/" + p1_first_name + "-and-" + p2_first_name + ".md"
         
         p2 = self.respond_conversation(p1.strip('"'),p2_personality,chat_history,p1_first_name)
         #print(p2_first_name + " says: " + p2)
-        with open("date.md", "a") as file:
+        with open(filename, "a") as file:
+            file.write("Generating personalities...\n\n" + p1_personality + "\n\n")
+            file.write(p2_personality + "\n\nDate between " + p1_first_name + " and " + p2_first_name + "\n\n")
+            file.write(p1_first_name + " says: " + p1 + "\n")
             file.write(p2_first_name + " says: " + p2 + "\n")
-
 
         while(True):
             p1 = self.respond_conversation(p2,p1_personality,chat_history,p2_first_name)
             #print(p1_first_name + " says: " + p1)
-            with open("date.md", "a") as file:
+            with open(filename, "a") as file:
                 file.write(p1_first_name + " says: " + p1 + "\n")
 
             p2 = self.respond_conversation(p1,p2_personality,chat_history,p1_first_name)
             #print(p2_first_name + " says: " + p2)
-            with open("date.md", "a") as file:
+            with open(filename, "a") as file:
                 file.write(p2_first_name + " says: " + p2 + "\n")
 
 

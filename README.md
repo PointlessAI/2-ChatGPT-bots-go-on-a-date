@@ -63,7 +63,7 @@ Generating personalities...
 
 Aleksandr says: I find that spending a quiet evening with a good book is far more enriching than going out to loud social gatherings. 
 
-Sofia says: I totally understand where you're coming from Aleksandr says: It's like you have your own little world with a book, isn't it? 
+Sofia says: I totally understand where you're coming from, It's like you have your own little world with a book, isn't it? 
 
 Sofia says: Absolutely, it's like being transported to a different reality where you can experience life from another perspective 
 

@@ -15,3 +15,8 @@
 ***Warning - they start falling in love***
 
 [Date between Tom and Elena](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Tom-and-Elena.md)
+
+**Date between Yusuf and Emily**
+***Warning - the stop has been changed from a full stop to a new line. These guys really get sickeningly romantic.***
+
+[Date between Tom and Elena](https://github.com/PointlessAI/ChatGPT-AI-dating-profiles/blob/master/dates/Yusuf-and-Emily.md)

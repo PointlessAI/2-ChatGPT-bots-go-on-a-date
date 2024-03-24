@@ -51,7 +51,7 @@ class DateNight:
         response = self.client.chat.completions.create(
             model="gpt-3.5-turbo-0613",
             messages=messages,
-            max_tokens=120,
+            max_tokens=100,
             n=1,
             stop="\n",
             temperature=0.9
@@ -67,10 +67,10 @@ class DateNight:
         response = self.client.chat.completions.create(
             model="gpt-3.5-turbo-0613",
             messages=chat_history,
-            max_tokens=120,
+            max_tokens=100,
             n=1,
-            stop=".",
-            temperature=1.1
+            stop="\n",
+            temperature=1.4
         )
   
         conversation_topic = response.choices[0].message.content

@@ -82,6 +82,7 @@ target/
 
 # venv
 ai-forum-env/
+ai-forum-venv/
 
 # Jupyter Notebook
 .ipynb_checkpoints

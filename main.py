@@ -12,7 +12,7 @@ class DateNight:
             {
                 "role": "system", "content": 'You will be populating a json object: \
                 Read all instructions before generating any values. \
-                {"user":{"first_name":"","last_name":"","age":"", "religion":"", "starsign":"", "email":"@pointlessai.com","address":{"city":"","country":""},"occupation":"","interests":[""],"dislikes":[""], "personality":{"traits":[""],"strengths":[""],"weaknesses":[""]}}} \
+                {"user":{"firstname":"","lastname":"","age":"", "religion":"", "starsign":"", "email":"@pointlessai.com","address":{"city":"","country":""},"occupation":"","interests":[""],"dislikes":[""], "personality":{"traits":[""],"strengths":[""],"weaknesses":[""]}}} \
                 First generate a list of 14 random cities, 4 from eastern countries and 4 from western countries and 4 from England, then choose 1 random city from this list and its country as the persons location. \
                 Sex is' + sex + ' \
                 Generate a random age. Match date of birth to starsign \
@@ -25,12 +25,12 @@ class DateNight:
             }
         ]
         response = self.client.chat.completions.create(
-            model="gpt-3.5-turbo-0613",
+            model="gpt-3.5-turbo-0125",
             messages=personality_prompt,
             max_tokens=850,
             n=1,
             stop=None,
-            temperature=1.7
+            temperature=1.5
         )
   
         actor_response = response.choices[0].message.content
@@ -49,11 +49,11 @@ class DateNight:
             }
         ]
         response = self.client.chat.completions.create(
-            model="gpt-3.5-turbo-0613",
+            model="gpt-3.5-turbo-0125",
             messages=messages,
             max_tokens=100,
             n=1,
-            stop="\n",
+            stop=".",
             temperature=0.9
         )
   
@@ -65,12 +65,12 @@ class DateNight:
         chat_history.append({"role": "user", "content": topic})
 
         response = self.client.chat.completions.create(
-            model="gpt-3.5-turbo-0613",
+            model="gpt-3.5-turbo-0125",
             messages=chat_history,
             max_tokens=100,
             n=1,
-            stop="\n",
-            temperature=1.4
+            stop=".",
+            temperature=1.2
         )
   
         conversation_topic = response.choices[0].message.content
@@ -81,13 +81,13 @@ class DateNight:
         p1_personality = self.generate_personality("male")
         #print(p1_personality)
         p1_data = json.loads(p1_personality)
-        p1_first_name = p1_data["user"]["first_name"]
+        p1_first_name = p1_data["user"]["firstname"]
 
         # Create person 2
         p2_personality = self.generate_personality("female")
         #print(p2_personality)
         p2_data = json.loads(p2_personality)
-        p2_first_name = p2_data["user"]["first_name"]
+        p2_first_name = p2_data["user"]["firstname"]
 
         p1 = self.start_conversation(p1_personality,p1_first_name).strip('"')
         #print(p1_first_name + " says: " + p1)
